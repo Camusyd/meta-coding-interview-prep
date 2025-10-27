@@ -1,0 +1,37 @@
+graph MindMap_XR {
+	overlap=false
+	node [fontsize=11 shape=ellipse]
+	XR [label="XR
+(Extended Reality)" fillcolor="#F0F8FF" fontsize=14 style=filled]
+	AR [label="AR
+(Realidad Aumentada)" fillcolor="#E8F7FF" style=filled]
+	XR -- AR
+	VR [label="VR
+(Realidad Virtual)" fillcolor="#E8F7FF" style=filled]
+	XR -- VR
+	MR [label="MR
+(Realidad Mixta)" fillcolor="#E8F7FF" style=filled]
+	XR -- MR
+	AV [label="AV
+(Virtualidad Aumentada)" fillcolor="#E8F7FF" style=filled]
+	XR -- AV
+	Continuum [label="Continuo
+Realidad–Virtualidad" fillcolor="#E8F7FF" style=filled]
+	XR -- Continuum
+	Devices [label="Dispositivos
+(smartphone, HoloLens, Quest)" fillcolor="#FFF4E6" style=filled]
+	XR -- Devices
+	Apps [label="Apps
+(IKEA Place, Pokemon Go, Beat Saber)" fillcolor="#FFF4E6" style=filled]
+	XR -- Apps
+	Tools [label="Herramientas
+(Unity, Unreal, WebXR)" fillcolor="#FFF4E6" style=filled]
+	XR -- Tools
+	Edu [label="Educación
+(lab VR, historia inmersiva)" fillcolor="#FFF4E6" style=filled]
+	XR -- Edu
+	AR -- Devices
+	VR -- Apps
+	MR -- Tools
+	Continuum -- Edu
+}
